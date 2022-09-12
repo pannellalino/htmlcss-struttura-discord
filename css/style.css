@@ -3,3 +3,37 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aqua;
+  height: 100px;
+  padding: 20px;
+}
+
+.jumbotron{
+  background-color: aquamarine;
+  /* altezza da togliere */
+  height: 300px;
+  text-align: center;
+}
+
+/* css da togliere */
+.white-bg, .grey-bg{
+  height: 300px;
+}
+
+.white-bg{
+  background-color: #ffffff;
+}
+
+.grey-bg{
+  background-color: lightgrey;
+}
+
+footer{
+  height: 300px;
+  background-color: rgb(43, 43, 43);
+}
